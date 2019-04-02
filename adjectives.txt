@@ -11,6 +11,7 @@ acidic
 acrobatic
 active
 actual
+addled
 adept
 admirable
 admired
@@ -57,9 +58,13 @@ appropriate
 apt
 arctic
 arid
+arbitrary
+arcane
+archaic
 aromatic
 artistic
 ashamed
+assimilated
 assured
 astonishing
 athletic
@@ -90,6 +95,7 @@ beneficial
 best
 better
 bewitched
+bickering
 big
 big-hearted
 biodegradable
@@ -114,6 +120,7 @@ boring
 bossy
 both
 bouncy
+bound
 bountiful
 bowed
 brave
@@ -246,7 +253,9 @@ delectable
 delicious
 delightful
 delirious
+deluded
 demanding
+demolished
 dense
 dental
 dependable
@@ -302,6 +311,7 @@ elaborate
 elastic
 elated
 elderly
+eldritch
 electric
 elegant
 elementary
@@ -444,6 +454,7 @@ giant
 giddy
 gifted
 gigantic
+giggling
 giving
 glamorous
 glaring
@@ -779,6 +790,7 @@ nutritious
 nutty
 obedient
 obese
+obfuscated
 oblong
 obvious
 occasional
@@ -863,6 +875,7 @@ powerful
 powerless
 practical
 precious
+preposterous
 present
 prestigious
 pretty
@@ -881,6 +894,8 @@ profuse
 proper
 proud
 prudent
+pulsing
+pulsed
 punctual
 pungent
 puny
@@ -906,6 +921,7 @@ quixotic
 quizzical
 radiant
 ragged
+raging
 random
 rapid
 rare
@@ -952,6 +968,7 @@ royal
 rubbery
 ruddy
 rude
+rudimentary
 rundown
 runny
 rural
@@ -1147,6 +1164,7 @@ thoughtful
 threadbare
 thrifty
 thunderous
+ticklish
 tidy
 tight
 timely
@@ -1183,6 +1201,7 @@ uncomfortable
 uncommon
 unconscious
 understated
+undulating
 unequaled
 uneven
 unfinished
