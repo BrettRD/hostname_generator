@@ -5,7 +5,10 @@ Description=set hostname to something readable, deterministic, and probably uniq
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c "pushd /usr/local/sbin/hostname_generator/ && ./change_hostname.sh \$(./name_gen.sh \$(cat /sys/class/net/eth0/address))"
+# using the ethernet mac address should be ok, buit is randomised at boot on some systems
+#ExecStart=/bin/bash -c 'pushd /usr/local/sbin/hostname_generator/ && ./change_hostname.sh $$(./name_gen.sh $$(cat /sys/class/net/eth0/address))'
+# some systems list a serial number in /proc/cpuinfo
+ExecStart=/bin/bash -c 'pushd /usr/local/sbin/hostname_generator/ && ./change_hostname.sh $$(./name_gen.sh $$(cat /proc/cpuinfo | grep Serial | sed -r \'s/.*: ([0-9]*)/\\1/g\'))'
 
 [Install]
 WantedBy=multi-user.target
