@@ -5,7 +5,7 @@ Description=set hostname to something readable, deterministic, and probably uniq
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c "pushd /usr/local/sbin/hostname_generator/ && change_hostname.sh \$(./name_gen.sh \$(cat /sys/class/net/eth0/address))"
+ExecStart=/bin/bash -c "pushd /usr/local/sbin/hostname_generator/ && ./change_hostname.sh \$(./name_gen.sh \$(cat /sys/class/net/eth0/address))"
 
 [Install]
 WantedBy=multi-user.target
